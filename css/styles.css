@@ -348,7 +348,11 @@ line-height: 60px;
   margin-top: 0;
   
   padding-top: 10px;
-  padding-bottom: 10px;}
+  padding-bottom: 10px;
+}
+.fly:hover,.links:focus{
+  cursor: pointer;
+}
   
   .fly::after{
     display: block;
@@ -823,18 +827,19 @@ line-height: 26px; */
   display: inline-block;
   display: flex;
   position: absolute;
-  width: 100%;
+  width: 370px;
   height: 294px;
- 
+ right: 0;
   left:0;
-top:0;
-  transform: translateY(90%); 
+
+  bottom: 100%;
+  /* transform: translateY(90%);  */
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
   /* pointer-events: none; */
   margin-top: 0;
   margin-bottom: 110px;
-  font-size: 18px;
+    font-size: 18px;
   line-height: 28px;
   font-size: 18px;
   line-height: 28px;
@@ -867,9 +872,10 @@ top:0;
   animation-duration: 250ms;
   animation-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   animation-fill-mode: forwards;
+  animation-iteration-count: 1;
 }
 
-.doit-now:hover,.doit-now:focus{
+.cor:hover,.cor:focus{
   cursor: pointer;
   transition-duration:250ms;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
