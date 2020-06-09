@@ -724,9 +724,13 @@ background-size: 65px, 70px
 .client:last-child {
   margin-right: 0; 
 }
-.client:hover, .client:focus, .ho:hover, .ho:focus{
+.ho:hover, .ho:focus{
   --color3:#2196F3;
   cursor: pointer;
+  
+  transition-duration:250ms;
+}
+.client:hover, .client:focus{
   border: 1px solid #2196F3;
   transition-duration:250ms;
 }
