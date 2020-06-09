@@ -724,7 +724,7 @@ background-size: 65px, 70px
 .client:last-child {
   margin-right: 0; 
 }
-.ho:hover, .ho:focus{
+.client:hover, .client:focus, .ho:hover, .ho:focus{
   --color3:#2196F3;
   cursor: pointer;
   border: 1px solid #2196F3;
