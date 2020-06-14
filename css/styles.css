@@ -969,7 +969,7 @@ line-height: 26px; */
  
   left:0;
 top:0;
-  transform: translateY(90%); 
+  /* transform: translateY(90%);  */
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
   /* pointer-events: none; */
@@ -981,7 +981,7 @@ top:0;
   line-height: 28px;
   text-align: left;
   letter-spacing: 0.03em;
-  transform: translateY(100%);
+  /* transform: translateY(100%); */
   color: #FFFFFF;
   padding-left: 24px;
   padding-right: 24px;
