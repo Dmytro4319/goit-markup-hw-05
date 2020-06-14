@@ -578,6 +578,7 @@ margin-bottom: 50px;
   margin-right: 0px;
 }
 .pic {
+  
   display: flex;
   /* ; */
   width: 270px;
@@ -593,22 +594,22 @@ margin-bottom: 50px;
 .ant{
 background-image: url('../img/antenna1.svg');
 background-position: center;
-background-size: 65px, 70px
+background-size: 70px, 70px
 }
 .clock{
 background-image: url('../img/clock1.svg');
 background-position: center;
-background-size: 65px, 70px
+background-size: 70px, 70px
 }
 .vector{
 background-image: url('../img/Vector.svg');
 background-position: center;
-background-size: 65px, 70px
+background-size: 70px, 70px
 }
 .astro{
  background-image: url('../img/astronaut1.svg'); 
  background-position: center;
-background-size: 65px, 70px
+background-size: 70px, 70px
 }
 
 /* Чем мы занимаемся */
@@ -639,7 +640,7 @@ background-size: 65px, 70px
 
 
 .social {
-
+  display: block;
   display: flex;
   margin-right: 10px;
   /* padding-inline-start: 0; */
@@ -648,7 +649,9 @@ background-size: 65px, 70px
   border-radius: 50% 50%;
   background-color: transparent;
   align-items: center;
-  padding-left: 11px;
+  text-align: center;
+  padding-left: 12px;
+  padding-top:6px ;
 }
 .socia {
   --color3:#ffffff;
@@ -660,7 +663,8 @@ background-size: 65px, 70px
   border-radius: 50% 50%;
   background-color: rgba(255, 255, 255, 0.1);
   align-items: center;
-  padding-left: 11px;
+  padding-left: 12px;
+  padding-top:6px ;
 }
 .nav-lin {
   
@@ -993,17 +997,19 @@ top:0;
     opacity:0;
   }
   100% {
-    transform: translateY(0%);
-    opacity:1;
+     transform: translateY(0%);
+    opacity:1;animation-iteration-count:1;
   }
 }
-.posi:hover,.posi:focus{
+.posi:hover {
   cursor: pointer;
   opacity: 1;
   animation-name: boxik;
+ 
   animation-duration: 250ms;
   animation-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   animation-fill-mode: forwards;
+  
 }
 
 .doit-now:hover,.doit-now:focus{
