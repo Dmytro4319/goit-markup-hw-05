@@ -389,7 +389,7 @@ text-align: center;
 }
 .podpis{
   /* position: absolute; */
-  /* position: relative; */
+  position: relative;
   opacity: 1;
   width: 528px;
   height: 581px;
