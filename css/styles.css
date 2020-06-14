@@ -966,9 +966,9 @@ line-height: 26px; */
   position: absolute;
   width: 100%;
   height: 294px;
- 
+  top:0;
   left:0;
-top:0;
+
   /* transform: translateY(90%);  */
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
@@ -998,12 +998,12 @@ top:0;
   }
   100% {
      transform: translateY(0%);
-    opacity:1;animation-iteration-count:1;
+    opacity:1;
   }
 }
 .posi:hover {
   cursor: pointer;
-  opacity: 1;
+  /* opacity: 1; */
   animation-name: boxik;
  
   animation-duration: 250ms;
